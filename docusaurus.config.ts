@@ -55,10 +55,14 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Uniqverse',
+      title: '',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
